@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+html{
+    font-family: Roboto;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+}
