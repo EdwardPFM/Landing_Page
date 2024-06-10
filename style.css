@@ -1,6 +1,16 @@
 @font-face {
     font-family: "Roboto";
-    src: url(fonts/Roboto-Regular.ttf);
+    src: url(fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Light";
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Medium";
+    src: url(fonts/Roboto-Medium.ttf);
 }
 
 html{
@@ -16,4 +26,100 @@ html{
 
 body{
     margin: 0;
+}
+/*1st Division of Landing Page*/
+.header-section{
+    background-color: #1F2937;
+    margin: 0;
+    padding: 10px 60px 70px;
+}
+
+.header-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-logo-and-nav-bar{
+    display: flex;
+}
+
+.logo-and-nav-bar{
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mind-matter,
+.nav-links{
+    display: flex;
+}
+
+.logo-and-nav-bar h1{
+    margin: 0;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-family: "Roboto Light";
+    padding: 0;
+    gap: 25px;
+}
+
+.hero-and-image{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero-text h2{
+    color: #F9FAF8;
+    font-size: 48px;
+}
+.hero-text p{
+    color: #F9FAF8;
+    font-family: "Roboto Medium";
+    font-size: 24px;
+    margin: 12px 0;
+}
+
+.hero-text{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-image{
+    display: flex;
+    align-items: center;
+}
+
+.hero-image img{
+    max-width: 100%;
+    height: 300px;
+    width: 800px;
+    flex: 1 1 auto;
+    display: inline-block;
+}
+
+.sign-up-button-for-header{
+    align-self: flex-start;
+}
+
+.sign-up-button-for-header button{
+    height: 40px;
+    width: 120px;
+    font-family: "Roboto Medium";
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 10px;
 }
