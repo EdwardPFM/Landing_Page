@@ -31,7 +31,7 @@ body{
 .header-section{
     background-color: #1F2937;
     margin: 0;
-    padding: 10px 60px 70px;
+    padding: 10px 90px 100px;
 }
 
 .header-contents{
@@ -70,7 +70,7 @@ nav ul{
     font-size: 18px;
     font-family: "Roboto Light";
     padding: 0;
-    gap: 25px;
+    gap: 100px;
 }
 
 .hero-and-image{
@@ -83,6 +83,7 @@ nav ul{
     color: #F9FAF8;
     font-size: 48px;
 }
+
 .hero-text p{
     color: #F9FAF8;
     font-family: "Roboto Medium";
@@ -91,10 +92,7 @@ nav ul{
 }
 
 .hero-text{
-    max-width: 800px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 800px;
 }
 
 .hero-image{
@@ -110,11 +108,7 @@ nav ul{
     display: inline-block;
 }
 
-.sign-up-button-for-header{
-    align-self: flex-start;
-}
-
-.sign-up-button-for-header button{
+button{
     height: 40px;
     width: 120px;
     font-family: "Roboto Medium";
@@ -123,3 +117,50 @@ nav ul{
     background-color: #3882F6;
     border-radius: 10px;
 }
+
+/*INFOGRAPHICS SECTION*/
+.fig img{
+    max-width: 100%;
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+.infographics-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infographics{
+    display: flex;
+    max-width: 90%;
+    font-size: 1.3em;
+
+}
+
+.infographics-intro{
+    display: flex;
+    justify-content: center;
+}
+.infographics-intro h2{
+    margin: 0;
+    padding: 18px;
+    font-size: 1.7em;
+}
+
+.fig{
+    text-align: center;
+    padding: 10px;
+}
+
+.fig figcaption{
+    font-family: "Roboto Light";
+}
+
+figcaption p{
+    max-width: 255px;
+}
+
+/*QUOTE SECTION*/
