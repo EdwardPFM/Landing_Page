@@ -56,6 +56,23 @@ body{
     display: flex;
 }
 
+li a{
+    padding: 30px;
+}
+
+li a:link{
+    text-decoration: none;
+}
+li a:visited{
+    color: #E5E7EB;
+}
+li a:hover{
+    background-color: #50545c;
+}
+li a:active{
+    color: #E5E7EB;
+}
+
 .logo-and-nav-bar h1{
     margin: 0;
     color: #F9FAF8;
@@ -70,7 +87,6 @@ nav ul{
     font-size: 18px;
     font-family: "Roboto Light";
     padding: 0;
-    gap: 100px;
 }
 
 .hero-and-image{
@@ -108,7 +124,7 @@ nav ul{
     display: inline-block;
 }
 
-button{
+.header-button{
     height: 40px;
     width: 120px;
     font-family: "Roboto Medium";
@@ -117,6 +133,14 @@ button{
     background-color: #3882F6;
     border-radius: 10px;
     border-style: none;
+    text-decoration: none;
+    padding: 8px 20px;
+}
+.header-button a:visited{
+    color: #F9FAF8;
+}
+.header-button a:active{
+    color: #F9FAF8;
 }
 
 /*INFOGRAPHICS SECTION*/
@@ -239,12 +263,23 @@ figcaption p{
     font-family: "Roboto Light";
 }
 
-.cta-button button{
+.button-for-cta{
     font-size: 1.3em;
+    font-family: "Roboto Medium";
+    font-weight: 500;
     color: #F9FAF8;
-    border: solid #E5E7EB;
+    border: 3px solid #E5E7EB;
     box-sizing: content-box;
-    padding: 2px 15px;
+    padding: 4px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.button-for-cta a:visited{
+    color: #F9FAF8;
+}
+.button-for-cta a:active{
+    color: #F9FAF8;
 }
 
 /*FOOTER SECTION*/
