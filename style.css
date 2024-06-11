@@ -116,6 +116,7 @@ button{
     color: #E5E7EB;
     background-color: #3882F6;
     border-radius: 10px;
+    border-style: none;
 }
 
 /*INFOGRAPHICS SECTION*/
@@ -189,4 +190,59 @@ figcaption p{
     align-self: flex-end;
     font-family: "Roboto Medium";
     font-size: 1.3em;
+}
+
+/*CALL-TO-ACTION SECTION*/
+.call-to-action-section{
+    display: flex;
+    justify-content: center;
+    padding: 80px 120px;
+}
+
+.call-to-action{
+    background-color: #3882F6;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    padding: 20px 60px;
+    border-radius: 12px;
+}
+
+.cta-item{
+    flex: 1 1 0;
+}
+
+.cta-h4-p{
+    flex-grow: 2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 1.3em;
+}
+
+.cta-button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cta-h4-p h4,
+.cta-h4-p p{
+    margin: 5px 0px;
+}
+
+.cta-h4-p h4{
+    color: #F9FAF8;
+}
+
+.cta-h4-p p{
+    color: #F9FAF8;
+    font-family: "Roboto Light";
+}
+
+.cta-button button{
+    font-size: 1.3em;
+    color: #F9FAF8;
+    border: solid #E5E7EB;
+    box-sizing: content-box;
+    padding: 2px 15px;
 }
