@@ -246,3 +246,17 @@ figcaption p{
     box-sizing: content-box;
     padding: 2px 15px;
 }
+
+/*FOOTER SECTION*/
+footer{
+    background-color: #1F2937;
+}
+
+.copyright-text{
+    color: #F9FAF8;
+    text-align: center;
+    font-family: "Roboto Light";
+    font-weight: 600;
+    font-size: 1.1em;
+    padding: 40px 0;
+}
